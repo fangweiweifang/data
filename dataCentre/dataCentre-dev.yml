@@ -5,13 +5,13 @@ spring:
     system-datasource: #系统运行库
       driverClassName: oracle.jdbc.driver.OracleDriver
       url: jdbc:oracle:thin:@//127.0.0.1:1521/orcal
-      username: '{cipher}23665912840dfa7756405461a8c9f4c88139c245bac60dc78a2c2828d5e21ea9'
-      password: '{cipher}23665912840dfa7756405461a8c9f4c88139c245bac60dc78a2c2828d5e21ea9'
+      username: 'test'
+      password: 'test'
     czbz-datasource: #参照标准库
       driverClassName: oracle.jdbc.driver.OracleDriver
       url: jdbc:oracle:thin:@//127.0.0.1:1521/orcal
-      username: '{cipher}9f1f96fe7e9c91ef4733b04f37794476a86cdee56582591e04e638679d62fe4e'
-      password: '{cipher}9f1f96fe7e9c91ef4733b04f37794476a86cdee56582591e04e638679d62fe4e'
+      username: 'USR_CZBZ'
+      password: 'USR_CZBZ'
 
   redis: #redis 配置
     host: localhost

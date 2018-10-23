@@ -1,0 +1,28 @@
+spring:
+  profiles:
+    active: dev
+pagehelper:
+  helper-dialect: oracle
+  reasonable: true #配置pageNum参数合理化
+  support-methods-arguments: true #支持通过 Mapper 接口参数来传递分页参数
+  params: countSql
+  auto-runtime-dialect: true #运行时多数据源自动识别，默认值false。true则允许自动识别对应方言的分页.
+
+logging: 
+  file: ./logs/dataCentre.log
+
+jhipster:
+  registry:
+    password: '{cipher}cf926e4c366d26f2908e12d42816b4d1bf137473b568ee1808926e80d4390901'
+
+eureka:
+  instance:
+    prefer-ip-address: true
+    #    namespace: config-server
+    appname: data-centre
+    instance-id: data-centre:${spring.application.instance-id:${random.value}}
+    lease-renewal-interval-in-seconds: 5
+    lease-expiration-duration-in-seconds: 10
+service: 
+  document_title: 合肥工业大学数据中心
+  title: 合肥工业大学数据中心

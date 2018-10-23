@@ -128,7 +128,7 @@ jhipster:
         rate-limiting:
             enabled: false
             limit: 100000
-            duration-in-seconds: 3600
+            duration-in-seconds: 36000
         authorized-microservices-endpoints: # Access Control Policy, if left empty for a route, all endpoints will be accessible
             app1: /api,/v2/api-docs # recommended dev configuration
             microservice: /getUser
@@ -136,7 +136,7 @@ jhipster:
         version: V_1_1 # To use HTTP/2 you will need SSL support (see above the "server.ssl" configuration)
     cache: # Cache configuration
         hazelcast: # Hazelcast distributed cache
-            time-to-live-seconds: 3600
+            time-to-live-seconds: 36000
             backup-count: 1
     # CORS is only enabled by default with the "dev" profile, so BrowserSync can access the API
     cors:
@@ -197,14 +197,14 @@ hystrix:
             execution:
                 isolation:
                     thread:
-                        timeoutInMilliseconds: 500000
+                        timeoutInMilliseconds: 5000000
                 timeout:
                     enabled: false
 zuul:
   host:
-    socket-timeout-millis: 600000
-    connect-timeout-millis: 600000
+    socket-timeout-millis: 6000000
+    connect-timeout-millis: 6000000
 ribbon:
-  ReadTimeout: 600000
-  ConnectTimeout: 600000
+  ReadTimeout: 6000000
+  ConnectTimeout: 6000000
 

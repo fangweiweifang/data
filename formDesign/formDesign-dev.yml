@@ -44,6 +44,9 @@ service:
 mybatis:
   mapper-locations: classpath:gen/*.xml
   type-aliases-package: com.bosssoft.HFGYDX.FORM.model
+  
+swaggers: 
+    enable: true
 
 
 

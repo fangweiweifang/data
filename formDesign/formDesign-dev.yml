@@ -1,15 +1,6 @@
 server:
   port: 9090
   context-path: /form
-  
-spring:
-  application:
-    name: form-design
-  datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/jeesite?useSSL=true&autoReconnect=true&initialTimeout=3&useUnicode=true&characterEncoding=utf-8
-    username: root
-    password: 123456
 
     #redis配置
   redis:
@@ -44,6 +35,4 @@ service:
 mybatis:
   mapper-locations: classpath:gen/*.xml
   type-aliases-package: com.bosssoft.HFGYDX.FORM.model
-
-
 

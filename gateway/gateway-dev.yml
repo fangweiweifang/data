@@ -77,7 +77,7 @@ spring:
         cache: false
     zipkin: # Use the "zipkin" Maven profile to have the Spring Cloud Zipkin dependencies
         base-url: http://localhost:9411
-        enabled: true
+        enabled: false
         locator:
             discovery:
                 enabled: true

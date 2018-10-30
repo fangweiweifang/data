@@ -1,6 +1,4 @@
-server:
-  port: 9191
-  context-path:/form
+
   
 spring:
   application:

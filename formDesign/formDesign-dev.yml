@@ -46,9 +46,7 @@ service:
 mybatis:
   mapper-locations: classpath:gen/*.xml
   type-aliases-package: com.bosssoft.form.model
-   configuration:
-    database-id: ${database.type}
-  
+
 swagger: 
     enable: true
 

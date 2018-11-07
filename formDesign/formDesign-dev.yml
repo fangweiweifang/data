@@ -48,7 +48,6 @@ mybatis:
   type-aliases-package: com.bosssoft.form.model
    configuration:
     database-id: ${database.type}
-    log-impl: org.apache.ibatis.mapping.DatabaseIdProvider
   
 swagger: 
     enable: true

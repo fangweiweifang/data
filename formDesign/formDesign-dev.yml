@@ -13,6 +13,7 @@ spring:
     username: 'test'
     password: 'test'
 
+
     #redis配置
   redis:
     host: localhost
@@ -52,6 +53,16 @@ mybatis:
 
 swagger: 
     enable: true
+
+source:
+   pagehelper.helper-dialect: 'oracel'
+   pagehelper.reasonable: true
+   pagehelper.support-methods-arguments: true
+   pagehelper.params: 'countSql'
+   pagehelper.auto-runtime-dialect: true
+
+
+
 
 
 

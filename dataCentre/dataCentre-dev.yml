@@ -12,7 +12,7 @@ spring:
       url: jdbc:oracle:thin:@//127.0.0.1:1521/orcal
       username: 'USR_CZBZ'
       password: 'USR_CZBZ'
-    primary-datasource: #主标准库
+    main-datasource: #主标准库
       driverClassName: oracle.jdbc.driver.OracleDriver
       url: jdbc:oracle:thin:@//127.0.0.1:1521/orcal
       username: 'USR_MAIN'

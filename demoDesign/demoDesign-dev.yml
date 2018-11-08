@@ -2,7 +2,7 @@
   
 spring:
   application:
-    name: form-design
+    name: demo-design
   datasource:
      #driverClassName: com.mysql.jdbc.Driver
      #url: jdbc:mysql://localhost:3306/jeesite?useSSL=true&autoReconnect=true&initialTimeout=3&useUnicode=true&characterEncoding=utf-8
@@ -45,8 +45,8 @@ service:
 
   
 mybatis:
-  mapper-locations: classpath:gen/*.xml
-  type-aliases-package: com.bosssoft.form.model
+  mapper-locations: classpath:mappings/*.xml
+  type-aliases-package: com.bosssoft.demo.model
   configuration:
     database-id: ${database.type}
     

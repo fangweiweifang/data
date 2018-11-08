@@ -31,6 +31,7 @@ service:
     loginUrl: http://localhost:8080/appframe-web/u/submitLogin.do
 #    用户中心根据用户信息获取菜单接口
     menuUrl: http://localhost:8080/appframe-web/platform/appframe/afauser/getMenuRelation.do
+    primaryKey: GUID
 
 swagger: 
   enable: true

@@ -54,12 +54,7 @@ mybatis:
 swagger: 
     enable: true
 
-source:
-   pagehelper.helper-dialect: 'oracel'
-   pagehelper.reasonable: true
-   pagehelper.support-methods-arguments: true
-   pagehelper.params: 'countSql'
-   pagehelper.auto-runtime-dialect: true
+
 
 
 

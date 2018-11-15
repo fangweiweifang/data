@@ -29,7 +29,7 @@ logging:
 eureka:
   client:
     service-url:
-      defaultZone: http://admin:${jhipster.registry.password}@127.0.0.1:8761/eureka/
+      defaultZone: http://admin:admin@127.0.0.1:8761/eureka/
 service:
 #    用户中心登录验证
     loginUrl: http://localhost:8282/appframe-web/u/submitLogin.do

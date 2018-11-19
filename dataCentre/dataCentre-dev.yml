@@ -26,6 +26,7 @@ logging:
     com:
       bosssoft:
         datacentre: debug
+        
 eureka:
   client:
     service-url:

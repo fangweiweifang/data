@@ -10,8 +10,8 @@ spring:
     czbz-datasource: #标准表空间
       driverClassName: oracle.jdbc.driver.OracleDriver
       url: jdbc:oracle:thin:@//192.168.1.104:1522/xe
-      username: 'USR_CZBZ'
-      password: 'USR_CZBZ'
+      username: 'USR_CODE'
+      password: 'BOSSSOFT123'
     main-datasource: #主数据源
       driverClassName: oracle.jdbc.driver.OracleDriver
       username: 'USR_MAIN'

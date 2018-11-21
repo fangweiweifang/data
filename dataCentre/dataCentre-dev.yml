@@ -9,14 +9,14 @@ spring:
       password: 'BOSSSOFT123'
     czbz-datasource: #标准表空间
       driverClassName: oracle.jdbc.driver.OracleDriver
-      url: jdbc:oracle:thin:@//192.168.1.169:1522/xe
+      url: jdbc:oracle:thin:@//192.168.1.104:1522/xe
       username: 'USR_CODE'
       password: 'BOSSSOFT123'
     main-datasource: #主数据源
       driverClassName: oracle.jdbc.driver.OracleDriver
       username: 'USR_MAIN'
       password: 'USR_MAIN'
-      url:  jdbc:oracle:thin:@//192.168.1.169:1522/xe
+      url:  jdbc:oracle:thin:@//192.168.1.104:1522/xe
   redis: #redis 配置
     host: localhost
     port: 6379
